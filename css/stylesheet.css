@@ -101,6 +101,10 @@ header {
     max-width: 450px;
 }
 
+.navbar-toggler {
+    color: rgb(08, 21, 53);
+}
+
 .nav-link {
     color: #474747;
     font-family: 'Open Sans', sans-serif;
@@ -134,7 +138,7 @@ header {
 .nav-btn {
     text-align: center;
     margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     border: rgb(147, 26, 29) 4px solid;
     background-color: rgb(255, 255, 255);
     display: inline-block;
