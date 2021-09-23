@@ -125,8 +125,8 @@ header {
 
 .home-jumbotron {
     color: #fff;
-    height: 82vh;
-    /* padding: 16rem 2rem; */
+    min-height: 82vh;
+    padding: 1.5rem 0;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/photo_data_trend.jpg);
     background-size: cover;
     background-position: center center;
@@ -173,7 +173,7 @@ header {
 
 
 .footer-logo {
-    width: 150px;
+    /* width: 150px; */
     height: 112.6px;
 }
 
@@ -185,5 +185,22 @@ small {
     h1 {
         font-size: 3rem;
 
+    }
+}
+
+@media all and (max-width: 767px) {
+    .padding-6rem {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .footer-small-pl {
+        padding-left: 50px;
+    }
+
+    .nav-btn {
+        padding: 1rem 0;
     }
 }
